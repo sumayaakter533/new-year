@@ -28,9 +28,72 @@ ol {
     list-style: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .container {
-    background-color: red;
     max-width: 1300px;
     margin: 0 auto;
 }
 /* Todo: End common css */
+
+/* Todo: Add header css */
+#banner {
+    margin: 50px 0 120px;
+}
+
+.banner-container {
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url(../images/Banner\ Image.png) no-repeat center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 175px;
+
+    /* ? The background-img also can be set with the following codes
+            * background-image: url(../images/Banner\ Image.png);
+            * background-color: rgba(0, 0, 0, 0.6);
+            * background-blend-mode: overlay;
+            * background-repeat: no-repeat;
+            * background-position: center;
+            * background-size: cover;
+    ? */
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ! Special Note (1):
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* * * Even if you skip this .banner-text css, the banner output will be the same because of padding in .banner-container, but the layout will be broken down on other devices. So if you use display flex, it will make your website somewhat responsive. Therefore, it's better to use display flex properties on your websites.
+
+! */
+
+.banner-text p,
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-top: 16px;
+}
+
+.banner-text h1 > span {
+    display: block;
+}
+/* Todo: End header css */
