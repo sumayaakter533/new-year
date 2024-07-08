@@ -266,6 +266,20 @@ h1 {
     justify-content: center;
 }
 
+/* ! Question (3):
+
+.offer-parts {
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+!!! Again again & again the same question is it necessary to use display flex in this part ???
+
+! */
+
 .offer-text2 {
     justify-content: end;
     padding-left: 118px;
@@ -316,3 +330,78 @@ h1 {
     margin-top: 30px;
 }
 /* Todo: End offer section css */
+
+/* Todo: Start holyday section css */
+#holiday-section {
+    margin-bottom: 120px;
+}
+
+.holiday-header-text h5 {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.holiday-header-text h2 {
+    color: rgb(7, 2, 17);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+
+.holiday-header-text h2 > span {
+    color: #ff0000;
+}
+
+.holiday-header-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 28px 90px 0;
+}
+
+.holiday-images {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.holiday-images img {
+    width: 50%;
+}
+
+.solid-color {
+    width: 100%;
+    height: 230px;
+    background-color: #ff0000;
+    border-radius: 16px;
+    border-top-right-radius: 0;
+    margin-top: 470px;
+}
+
+#gift-box {
+    position: absolute;
+    left: 75px;
+    bottom: 30px;
+}
+
+#girl-img {
+    width: 365px !important;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    bottom: 230px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#discount-img {
+    width: 205px !important;
+    height: 205px;
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+}
+/* Todo: End holyday section css */
