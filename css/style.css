@@ -211,9 +211,8 @@ h1 {
         rgba(255, 0, 0, 0.1),
         rgba(255, 0, 0, 0) 100%
     );
-
     margin-bottom: 120px;
-    padding: 100px 100px 214px;
+    padding: 100px 100px 126px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -251,3 +250,69 @@ h1 {
     color: #ff0000;
 }
 /* Todo: End date time section css */
+
+/* Todo: Start offer section css */
+.offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.offer-parts {
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-text2 {
+    justify-content: end;
+    padding-left: 118px;
+}
+
+.offer-img {
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 35px;
+}
+
+.offer-parts h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 16px 0 22px;
+    text-transform: capitalize;
+}
+
+.offer-parts p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-text1 h4 {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.offer-text1 p {
+    padding-right: 30px;
+}
+
+.offer-text2 h3 {
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+
+.offer-text2 img {
+    width: 140px;
+    height: 140px;
+    margin-top: 30px;
+}
+/* Todo: End offer section css */
