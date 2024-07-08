@@ -202,3 +202,52 @@ h1 {
     text-transform: uppercase;
 }
 /* Todo: End midnight party section css */
+
+/* Todo: Start date time section css */
+.date-time-container {
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.1),
+        rgba(255, 0, 0, 0) 100%
+    );
+
+    margin-bottom: 120px;
+    padding: 100px 100px 214px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* ! Question (2):
+
+.date-time-container {
+    border-radius: 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.1),
+        rgba(255, 0, 0, 0) 100%
+    );
+    
+    padding: 100px 100px 214px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+!!! Then again the same question arises is it necessary to use display flex in this part ???
+
+! */
+
+.date-time-container p {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.date-time-container p > span {
+    color: #ff0000;
+}
+/* Todo: End date time section css */
