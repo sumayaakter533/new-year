@@ -513,3 +513,54 @@ h1 {
     margin-left: -4px;
 }
 /* Todo: End subscribe section css */
+
+/* Todo: Start footer section css */
+#footer {
+    background: rgb(7, 2, 17);
+    padding: 120px;
+}
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-text p,
+ul {
+    width: 50%;
+}
+
+.footer-text p,
+ul > li {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-links {
+    padding: 48px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-links a {
+    margin: 0 12px;
+}
+
+.footer_btm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer_btm p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+/* Todo: End footer section css */
